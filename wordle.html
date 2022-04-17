@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to the Worlde World</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" type="text/css">
+<script src="https://kit.fontawesome.com/9961cd7c6a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+    <header class="header" id="home">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">Wordle</a>
+            <div class="navbar-buttons">
+                <button type="button" class="button icon-button menu-toggle-button">
+                    <i class="bx bx-menu open-icon"></i>
+                    <i class="bx bx-x close-icon"></i>
+                    
+                </button>
+                <button type="button" class="button icon-button theme-toggle-button">
+                    <i class="bx bx-toggle-left theme-off"></i>
+                    <i class="bx bx-toggle-right theme-on"></i>
+                </button>
+            </div>
+                <div class="menu">
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="aboutme.html" class="list-item">
+                                <span>1.</span> About Me
+                            </a>
+                        </li> 
+                        <li class="list-item">
+                            <a href="wordle.html" class="list-item">
+                                <span>2.</span> Wordle
+                            </a>
+                        </li> 
+                        <li class="list-item">
+                            <a href="contactme.html" class="list-item">
+                                <span>3.</span> Contact Me
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+        </nav>
+</header>
+    <div id="container1">
+        <div id="game">
+            <div id="board-container">
+                <div id="board"></div>
+            </div>
+            <div id="keyboard-container">
+                <div class="keyboard-row">
+                    <button data-key="q">q</button>
+                    <button data-key="w">w</button>
+                    <button data-key="e">e</button>
+                    <button data-key="r">r</button>
+                    <button data-key="t">t</button>
+                    <button data-key="y">y</button>
+                    <button data-key="u">u</button>
+                    <button data-key="i">i</button>
+                    <button data-key="o">o</button>
+                    <button data-key="p">p</button>
+                </div>
+                <div class="keyboard-row">
+                    <div class="spacer-half"></div>
+                    <button data-key="a">a</button>
+                    <button data-key="s">s</button>
+                    <button data-key="d">d</button>
+                    <button data-key="f">f</button>
+                    <button data-key="g">g</button>
+                    <button data-key="h">h</button>
+                    <button data-key="j">j</button>
+                    <button data-key="k">k</button>
+                    <button data-key="l">l</button>
+                </div>
+                <div class="keyboard-row">
+                    <button data-key="enter" class="wide-button">Enter</button>
+                    <button data-key="z">z</button>
+                    <button data-key="x">x</button>
+                    <button data-key="c">c</button>
+                    <button data-key="v">v</button>
+                    <button data-key="b">b</button>
+                    <button data-key="n">n</button>
+                    <button data-key="m">m</button>
+                    <button data-key="del" class="wide-button">Del</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container container">
+            <span>&copy; 2022 Mohit Madan. All Rights Reserved</span>        
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mohit Madan's Worlde</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" type="text/css">
+        <script src="https://kit.fontawesome.com/9961cd7c6a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+    </head>
+    <body>
+
+    <header class="header" id="home">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">About Me</a>
+            <div class="navbar-buttons">
+                <button type="button" class="button icon-button menu-toggle-button">
+                    <i class="bx bx-menu open-icon"></i>
+                    <i class="bx bx-x close-icon"></i>
+                    
+                </button>
+                <button type="button" class="button icon-button theme-toggle-button">
+                    <i class="bx bx-toggle-left theme-off"></i>
+                    <i class="bx bx-toggle-right theme-on"></i>
+                </button>
+            </div>
+                <div class="menu">
+                    <ul class="list">
+                        <li class="list-item">
+                            <a href="aboutme.html" class="list-item">
+                                <span>1.</span> About Me
+                            </a>
+                        </li> 
+                        <li class="list-item">
+                            <a href="wordle.html" class="list-item">
+                                <span>2.</span> Wordle 
+                            </a>
+                        </li> 
+                        <li class="list-item">
+                            <a href="#" class="list-item">
+                                <span>3.</span> Contact Me
+                            </a>
+                        </li> 
+                    </ul>
+                </div>
+        </nav>
+</header>
+    <section class="about-me section" id="about me">
+        <div class="container">
+            <div class="section-description d-grid">
+                <div class="scroll-reveal-left">
+                    <p class="Description">
+                        Hi, I'm <span class="text-bold">Mohit Madan</span>, currently pursuing my <span class="text-bold">Bachelor's in Computer Science and Engineering</span> from <span class="text-bold">Vellore Institute of Technology.</span>
+                        This would be my submission for <span class="text-bold">Elitmus Second Round.</span>
+                    </p>
+                </div>
+                <div class="scroll-reveal-right">
+                    <div class="description-image">
+                        <img src="./Polish_20220304_000751718.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="social d-grid">
+                <div onclick="onClickLinkedIn()"; class="social-items" data-tooltip="LinkedIn">
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+                <div onclick="onClickTwitter()"; class="social-items" data-tooltip="Twitter">
+                    <i class='bx bxl-twitter'></i>
+                </div>
+                <div onclick="onClickInsta()"; class="social-items" data-tooltip="Instagram">
+                    <i class='bx bxl-instagram' ></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container container">
+            <span>&copy; 2022 Mohit Madan. All Rights Reserved</span>        
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
